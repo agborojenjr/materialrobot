@@ -1,0 +1,21 @@
+/* .root {
+  max-width: 345px;
+  background: rgb(238, 41, 77) !important;
+  border-radius: 5% !important;
+}
+
+.button {
+  border-radius: 30%;
+  max-width: 200px;
+}
+.button:hover {
+  transform: scale(1.5);
+  transform: rotate(20deg);
+} */
+
+.robot_image {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-content: center;
+}
