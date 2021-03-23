@@ -40,7 +40,7 @@ class App extends Component {
            searchField: event.target.value, 
         });
         
-        const newRobots = [...robots]
+        // const newRobots = [...robots]
         const filteredArray = robots.filter(robot => {
             return robot.name.toLowerCase().includes(event.target.value.toLowerCase());
         });
